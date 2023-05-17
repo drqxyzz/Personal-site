@@ -1,0 +1,70 @@
+body {
+  --bs-body-bg: #2a2a2a;
+  --bs-body-color: var(--bs-white);
+  --bs-dark: #000000;
+  --bs-dark-rgb: 0,0,0;
+  --bs-light: #ffffff;
+  --bs-light-rgb: 255,255,255;
+  --bs-primary: #8000ff;
+  --bs-primary-rgb: 128,0,255;
+  font-family: Montserrat, sans-serif;
+  background: rgb(30,30,30);
+}
+
+.socials {
+  color: #ffffff;
+  transition: all ease .3s;
+}
+
+.socials:hover {
+  color: #6f6f6f;
+}
+
+.desc1 {
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .desc1 {
+    font-size: 20px;
+    text-align: left;
+  }
+}
+
+.desc2 {
+}
+
+.hireme {
+}
+
+.btn {
+  background: #292929;
+}
+
+.aboutme {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .aboutme {
+    text-align: left;
+  }
+}
+
+.serv-cards {
+  transition: all .2s ease-in-out;
+}
+
+.serv-cards:hover {
+  border-style: none;
+}
+
+@media (min-width: 992px) {
+  .serv-cards:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}
+
