@@ -55,3 +55,11 @@
   border-radius: 50%;
 }
 
+.project-img {
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
