@@ -68,3 +68,18 @@ body {
   }
 }
 
+.project-img {
+  transition: all .3s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  filter: blur(0px) brightness(40%);
+}
+
+.card-img-overlay {
+  position: relative;
+  height: 500Px;
+}
+
